@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavegationDemo_DEINT.MVVM.Views.Pagina2"
+             Title="Pagina2">
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        >
+        <Entry
+            x:Name="txtEntrada"
+            />
+        <Button
+            x:Name="btnPagIni"
+            Text="Pagina Ini"
+            Clicked="btnPagIni_Clicked"
+            />
+        <Button
+            x:Name="btnPagFnl"
+            Text="Pagina Final"
+            Clicked="btnPagFnl_Clicked"
+            />
+    </VerticalStackLayout>
+</ContentPage>
